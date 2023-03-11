@@ -5,7 +5,7 @@ include(cmake/CPM.cmake)
 CPMAddPackage(
     NAME cmark-gfm
     GITHUB_REPOSITORY github/cmark-gfm
-    GIT_TAG 0.29.0.gfm.0
+    GIT_TAG 0.29.0.gfm.9
     OPTIONS
       "CMARK_STATIC On"
       "CMARK_SHARED Off"
